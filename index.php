@@ -36,7 +36,7 @@
 	if(isset($_GET['u'])){  // User Profile Display
 		$_SESSION['u'] = $_GET['u'];
 		$u = $_SESSION['u'];
-		$select_query = 'SELECT * FROM codeprofiles WHERE github_username=$1';
+		$select_query = 'SELECT * FROM TABLE_NAME_SECRET WHERE github_username=$1';
 		$table_select = pg_query_params($pg_conn,$select_query,array($u)) or die("Error while selecting.");
 		$codeprofile = pg_fetch_assoc($table_select);
 		$num_rows = pg_num_rows($table_select);
