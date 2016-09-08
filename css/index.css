@@ -1,0 +1,28 @@
+body{
+	background-color: #99ccff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#lang_chart{
+	margin-right:auto;
+    margin-left:auto;
+    float: left;
+}
+
+#someDiv{
+	margin-right:auto;
+    margin-left:auto;
+    float: left;
+    width:50%;
+}
+
+.button{
+	font-size: 22px;
+	background-color: #0033cc;
+	color: white;
+	padding: 8px;
+	width:  50%;
+	text-decoration: none;
+}
